@@ -1,0 +1,324 @@
+*{
+    margin:0px;
+    padding:0px;
+      scroll-behavior: smooth;
+}
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    position:fixed;
+    width:100%;
+    height:100px;
+    background-color:black;
+    display: block;
+}
+#logo{
+    position:absolute;
+    padding-top:3px;
+    width:200px;
+    height:90px;
+    display: inline-block;
+    left:40px;
+}
+#menu{
+    position: absolute;
+    left:20%;
+    top:40px;
+}
+#menu li{
+    font-weight:200;
+    color:white;
+    display: inline;
+    padding:20px;
+    cursor: pointer;
+}
+#menu li:hover{
+    background:white;
+    color:black;
+}
+.active{
+    display: block;
+}
+#toggle-btn{
+    position: absolute;
+    width:50px;
+    height:50px;
+    left:85vw;
+    top:33px;
+    display:none;
+}
+#toggle-btn #side1,#side2,#side3{
+    background:white;
+    height:6px;
+    width:80%;
+    display: block;
+    margin-bottom:5px;
+}
+#slideimage{
+    max-width:100%;
+    width:100%;
+    height:85%;
+    opacity:90%;
+    background:rgba(0,0,0,0.5);
+}
+#slide{
+    z-index:-1;
+}
+.carousel-text{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left:10%;
+    top:5%;
+}
+.text-inner{
+    font-size:6vw;
+    color:rgba(255, 255, 255, 0.9);
+}
+.text-inner-2{
+        font-size:6vw;
+        color:rgba(255,255,255,0.9);
+}
+#background-slide{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:50%;
+}
+#icon{
+    position: absolute;
+    width:7vw;
+    left:40%;
+    top:0%;
+    opacity: 80%;
+}
+
+#redcolor{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color:red;
+    float:center;
+    margin-left:20%;
+}
+#notice-board{
+    padding:30px;
+    width:100%;
+    height:400px;
+  overflow:auto;
+  white-space: nowrap;
+      border-radius:10px;
+      background:rgba(0,0,0,0.02);
+}
+#notice-heading{
+    font-family: 'Montserrat', sans-serif;
+    margin-left:26%;
+}
+#smitheading{
+    font-family: 'Montserrat',sans-serif;
+    opacity:80%;
+    font-size:1.2em;
+}
+#smit-logo{
+    width:9vw;
+}
+#contact{
+    background-image:url('images/backgroundcontact.jpg');
+      height: calc(300px + 10vw);
+}
+#address{
+    color:white;
+     padding-left:40px;
+    padding-top:20px;
+}
+#imagediv{
+    width:50px;
+    display:inline-block;
+    margin-right:30px;
+    padding-left:20px;
+}
+#imaged{
+    padding-left:40px;
+    padding-top:20px;
+}
+
+#logo2{
+    display: block;
+}
+@media only screen and (max-width: 1250px) {
+    #slideimage{
+        height:67%;
+    }
+  #toggle-btn{
+      display:inline-block;
+      width:40px;
+      left:90%;
+  }
+  #menu{
+      display: none;
+      left:0px;
+      top:100px;
+      width:100%;
+      text-align: center;
+  }
+  #menu li{
+      width:100%;
+      display: block;
+      background:black;
+      opacity: 0.9;
+      color:white;
+      padding:25px;
+      border-bottom: 1px solid white;
+  }
+  
+}
+#hod{
+    height:290px;
+    width:65%;
+    border:1px solid black;
+    padding-top:30px;
+    padding-left:30px;
+    border-radius:10px;
+    background:whitesmoke;
+}
+
+#hod-para{
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    font-size:22px;
+}
+#list{
+    list-style-type: square;
+}
+
+@media only screen and (max-width: 1085px) {
+#contact{
+    height:calc(400px + 20vw);
+}
+}
+
+@media only screen and (max-width: 1010px) {
+    #hod{
+         height:320px;
+    }
+    #contact-images{
+    display:inline-block;
+    margin-right: 4%;
+    }
+}
+@media only screen and (max-width: 991px) {
+#contact{
+    height:calc(600px + 20vw);
+}
+}
+@media only screen and (max-width: 850px) {
+#slideimage{
+    height:70%;
+}
+#toggle-btn{
+    left:90vw;
+}
+ #hod{
+         height:380px;
+    }
+    #imagediv{
+    width:40px;
+    display:inline-block;
+    margin-right:20px;
+    }
+    
+}
+
+@media only screen and (max-width: 775px) {
+        #contact{
+    height:calc(700px + 20vw);
+}
+
+#notice-board{
+    height:500px;
+}
+}
+@media only screen and (max-width: 740px) {
+ #hod{
+         height:380px;
+    }
+}
+@media only screen and (max-width: 680px) {
+ #hod{
+         height:460px;
+    }
+}
+@media only screen and (max-width: 579px) {
+#notice-board{
+    height:500px;
+}
+ #hod{
+         height:470px;
+    }
+}
+@media only screen and (max-width: 500px) {
+#notice-board{
+    height:650px;
+}
+#notice-heading{
+font-size:6vw;
+}
+#slideimage{
+    height:53%;
+}
+#hod{
+         height:325px;
+    }
+    #hod-para{
+        font-size:17px;
+    }
+
+}
+@media only screen and (max-width: 424px) {
+#hod-para{
+    font-size:18px;
+}
+#hod{
+    height:380px;
+}
+}
+@media only screen and (max-width: 400px) {
+     #contact{
+    height:calc(850px + 20vw);
+   }
+#slideimage{
+    height:57%;
+}
+#toggle-btn{
+    left:85vw;
+}
+.text-inner-2{
+    font-size:8vw;
+}
+.text-inner{
+     font-size:8vw;
+   
+}
+#icon{
+    left:54%;
+}
+#hod{
+    height:335px;
+}
+#hod-para{
+    font-size:16px;
+}
+}
+@media only screen and (max-width: 366px) {
+   #contact{
+    height:calc(850px + 20vw);
+   } 
+
+}
+@media only screen and (max-width: 350px) {
+#slideimage{
+    height:51%;
+}
+#hod-para{
+    font-size:13px;
+}
+#hod{
+height:300px;
+}
+}

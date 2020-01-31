@@ -1,0 +1,320 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-image:url(images/Background001.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#heading1{
+        font-family: 'Montserrat', sans-serif;
+        margin-left:25%;
+        font-size:50px;
+        color:rgba(0,0,0,0.8);
+        text-shadow: 2px 2px slategrey;
+}
+#logout{
+    position: absolute;
+    left:48%;
+    width:100px;
+    height:35px;
+    background:white;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    outline:none;
+    box-shadow: 3px 2px slategrey;
+}
+#logout:hover{
+    color:white;
+    background:grey;
+     box-shadow: 0px 0px white;
+
+}
+#notice{
+    width:80%;
+    height:4vw;
+    margin-left:2%;
+    margin-top:1%;
+    border:1px solid black;
+    padding-left: 5px;
+    border-radius:5px;
+    outline: none;
+}
+#notice1{
+    width:40%;
+    height:4vw;
+    margin-left:2%;
+    margin-top:1%;
+    border:1px solid black;
+    padding-left: 5px;
+    border-radius:5px;
+    outline: none;
+}
+#code{
+    width:10%;
+    height:4vw;
+    margin-left:2%;
+    margin-top:1%;
+    border:1px solid black;
+    padding-left: 5px;
+    border-radius:5px;
+    outline: none;
+}
+#notice::placeholder,#code::placeholder,#notice1::placeholder,#date::placeholder{
+    color:black;
+    font-weight:bolder;
+}
+#date{
+     width:20%;
+    height:4vw;
+    margin-left:2%;
+    margin-top:1%;
+    border:1px solid black;
+    padding-left: 5px;
+    border-radius:5px;
+    outline: none;
+}
+#addnotice{
+    display:block;
+    width:90%;
+    height:380px;
+    background:rgba(0,0,0,0.08);
+    margin-left:5%;
+    border:2px solid black;
+    border-radius: 10px;
+}
+#noticeboard{
+    color:rgba(0,0,0,0.8);
+    font-family: 'Montserrat', sans-serif;
+    margin-left:6%;
+    font-size:30px;
+}
+#form{
+    width:100%;
+}
+#textbox{
+    width:80%;
+    background:white;
+    height:4vw;
+    margin-left:5%;
+    padding:15px;
+    border:2px solid black;
+     border-radius: 7px;
+     outline:none;
+}
+#btn{
+    height:4vw;
+    width:100px;
+    float:right;margin-right:6%;
+    color:white;
+    background:black;
+    border:2px solid black;
+    opacity:70%;
+    border-radius:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1em;
+    outline:none;
+}
+#btn:active{
+    color:white;
+    background:rgba(0,0,0,0.7);
+}
+#textbox2{
+    background:white;
+    width:23%;
+     height:4vw;
+    margin-left:5%;
+    padding:15px;
+    border:2px solid black;
+     border-radius: 7px;
+     outline:none;
+}
+#textbox2::placeholder{
+    color:black;
+        font-weight:bolder;
+
+}
+#textbox::placeholder{
+    color:black;
+        font-weight:bolder;
+
+}
+@media only screen and (max-width: 1250px){
+ #textbox{
+     width:70%;
+ }
+ #heading1{
+     margin-left: 20%;
+ }
+}
+@media only screen and (max-width: 1030px){
+    #textbox2{
+        width:19%;
+    }
+    #heading1{
+     margin-left: 13%;
+ }
+}
+@media only screen and (max-width: 950px){
+    #textbox2{
+        width:19%;
+    }
+    #noticeboard{
+        height:5vw;
+    }
+    #addnotice{
+        height:260px;
+    }
+}
+@media only screen and (max-width: 850px){
+#heading1{
+     margin-left: 16%;
+ }
+ #notice,#notice1,#date,#textbox,#textbox2,#code{
+     height:5vw;
+ }
+}
+@media only screen and (max-width: 768px){
+    #heading1{
+     margin-left: 10%;
+ }
+}
+
+@media only screen and (max-width: 720px){
+#heading1{
+     margin-left: 17%;
+ }
+ #notice,#notice1,#date,#textbox,#textbox2,#code{
+     height:6vw;
+ }
+}
+@media only screen and (max-width: 600px){
+#btn{
+    height:6vw;
+}
+}
+@media only screen and (max-width: 560px){
+#heading1{
+     margin-left: 14%;
+ }
+}
+@media only screen and (max-width: 540px){
+#heading1{
+     margin-left: 14%;
+ }
+ #notice{
+    height:7vw;
+ }
+ #notice1{
+    height:7vw;
+ }
+ #date{
+    height:7vw;
+
+ }
+ #textbox{
+    height:7vw;
+    width:60%;
+
+ }
+ #textbox2{
+    height:7vw;
+
+ }
+ #btn{
+         height:7vw;
+ }
+}
+@media only screen and (max-width: 540px){
+    #noticeboard{
+        font-size:25px;
+    }
+}
+@media only screen and (max-width: 474px){
+    #noticeboard{
+        font-size:25px;
+    }
+    #btn{
+        width:80px;
+        font-size:0.8em;
+        height:8vw;
+    }
+    
+}
+@media only screen and (max-width: 430px){
+    #noticeboard{
+        font-size:23px;
+    }
+    #code::placeholder{
+        font-size:10px;
+    }
+    #date::placeholder{
+        font-size:10px;
+    }
+    #notice::placeholder{
+        font-size:10px;
+    }
+    #notice1::placeholder{
+        font-size:10px;
+    }
+    #textbox{
+        font-size:10px;
+    }
+    #textbox2::placeholder{
+        font-size:10px;
+    }
+}
+
+@media only screen and (max-width: 394px){
+#btn{
+    width:70px;
+    height:8vw;
+}
+ #noticeboard{
+        font-size:21px;
+    }
+    #heading1{
+        font-size:40px;
+    }
+    #logout{
+        left: 42%;
+
+    }
+    #notice{
+        width:75%;
+    }
+    #code{
+        width:12%;
+    }
+    #notice1{
+        width: 34%;
+    }
+    #notice,#notice1,#date,#textbox,#textbox2,#code{
+     height:9vw;
+ }
+}
+@media only screen and (max-width: 363px){
+    #noticeboard{
+        font-size:15px;
+    }
+    #code{
+    width:50px;
+}
+}
+@media only screen and (max-width: 351px){
+#code{
+    width:50px;
+}
+#btn{
+    height:10vw;
+}
+}
+@media only screen and (max-width: 325px){
+#btn{
+    width:60px;
+    font-size:10px;
+    height:12vw;
+}
+#notice,#notice1,#date,#textbox,#textbox2,#code{
+     height:13vw;
+ }
+}
