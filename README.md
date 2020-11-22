@@ -2,7 +2,7 @@
 You can use it for free. It has a notice board which is controlled by the admin panel. You can set the data base name to it and set the password in encrypted form.
 
 <b>Tech Stack</b>
-<li>HTML</li
+<li>HTML</li>
 <li>Css</li>
 <li>JavaScript</li>
 <li>PHP</li>
